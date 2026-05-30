@@ -1,4 +1,5 @@
 #Numbers to word (1-20)
+"""
 def number_to_words(num):
     numbers={
         1: "one",
@@ -26,4 +27,47 @@ def number_to_words(num):
 #ask user for input
 num=int(input("Enter a number  (1-20): "))
 print(number_to_words(num))
- 
+"""
+
+#Assignment
+thislist = ["bag","shoe","accessories"]
+print(thislist)
+thislist.append("school")
+print(thislist)
+thislist.insert(3,"food")
+print(thislist)
+thislist.pop(2)
+print(thislist)
+thislist.remove("food")
+print(thislist)
+thislist.reverse()
+print(thislist)
+thislist.sort()
+print(thislist)
+thislist.__add__(["car"])
+print(thislist)
+thislist.clear()
+print(thislist)
+thislist.copy()
+print(thislist)
+thislist.count("accessories")
+print(thislist)
+thislist.extend("shoe")
+print(thislist)
+thislist.index
+print(thislist)
+thislist.insert(5,"fruit")
+print(thislist)
+thislist.pop(3)
+print(thislist)
+thislist.remove("fruit")
+print(thislist)
+thislist.reverse()
+print(thislist)
+thislist.sort()
+print(thislist)
+thislist.__add__(["mat"])
+print(thislist)
+thislist.__class__()
+
+
